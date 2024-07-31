@@ -1,0 +1,25 @@
+:root {
+  --font-family: Poppins, sans-serif;
+
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+
+  --color-text-primary: #292524;
+  --color-text-secondary: #57534e;
+  --color-text-tertiary: #8f8881;
+  --color-text-highlight: #e43a12;
+
+  --color-surface-primary: #fff;
+  --color-surface-secondary: #fee7d6;
+
+  --color-stroke-default: #d6d3d1;
+  --color-stroke-highlight: #f3541c;
+
+  --color-semantic-error: #dc2626;
+
+  --color-bg: var(--color-surface-primary);
+}
+
+body {
+  background-color: var(--color-bg);
+}
