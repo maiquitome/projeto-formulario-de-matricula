@@ -1,0 +1,26 @@
+#app {
+  display: grid;
+  grid-template-columns: 51.25% 48.75%;
+
+  height: 100vh; /* 100% da área visível da tela */
+  overflow: hidden; /* para nunca ter barra de rolagem */
+}
+
+main {
+  overflow: auto; /* aqui pode ter barra de rolagem */
+  padding: 4rem;
+
+  .main-container {
+    max-width: 33rem;
+    margin-left: auto;
+  }
+}
+
+aside {
+  background-color: var(--color-surface-secondary);
+  padding: 4rem;
+
+  .aside-container {
+    max-width: 31rem;
+  }
+}

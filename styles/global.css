@@ -20,6 +20,13 @@
   --color-bg: var(--color-surface-primary);
 }
 
+* {
+  margin: 0; /* para não aparecer a barra de rolagem */
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  overflow: hidden; /* para nunca ter barra de rolagem */
   background-color: var(--color-bg);
 }
