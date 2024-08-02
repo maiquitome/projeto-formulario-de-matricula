@@ -29,4 +29,16 @@
 body {
   overflow: hidden; /* para nunca ter barra de rolagem */
   background-color: var(--color-bg);
+  font: var(--text);
+  color: var(--color-text-secondary);
+}
+
+h1,
+h2 {
+  color: var(--color-text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
