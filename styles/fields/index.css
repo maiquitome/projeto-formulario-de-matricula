@@ -1,3 +1,5 @@
+@import url(droparea.css);
+
 input,
 textarea,
 select {
@@ -21,7 +23,8 @@ label {
 
 input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+input[type="date"]:focus-within {
   outline: 0.25rem solid var(--color-surface-secondary);
   border: 0.125rem solid var(--color-stroke-highlight);
   outline-offset: 0.1px; /* para aparecer a borda no Safari */
