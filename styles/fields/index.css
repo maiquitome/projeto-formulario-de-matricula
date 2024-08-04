@@ -63,3 +63,21 @@ select {
   background: url(../../assets/icons/interface/arrow-down-01.svg) no-repeat
     calc(100% - 0.9rem);
 }
+
+.address .flex {
+  gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: 0.5;
+}
+
+input {
+  &[disabled] {
+    background-color: var(--color-surface-disabled);
+
+    border: 1px solid var(--color-stroke-default);
+
+    color: var(--color-text-primary);
+  }
+}

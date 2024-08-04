@@ -4,6 +4,10 @@
   --text: 400 1rem/1.5 var(--font-family);
   --text-sm: 400 0.875rem/1.4 var(--font-family);
 
+  --color-brand-light: #f67841;
+  --color-brand-mid: #f3541c;
+  --color-brand-dark: #e43a12;
+
   --color-text-primary: #292524;
   --color-text-secondary: #57534e;
   --color-text-tertiary: #8f8881;
@@ -11,6 +15,7 @@
 
   --color-surface-primary: #fff;
   --color-surface-secondary: #fee7d6;
+  --color-surface-disabled: #e7e5e4;
 
   --color-stroke-default: #d6d3d1;
   --color-stroke-highlight: #f3541c;
@@ -18,6 +23,8 @@
   --color-semantic-error: #dc2626;
 
   --color-bg: var(--color-surface-primary);
+
+  /* zoom: 70%; */
 }
 
 * {
