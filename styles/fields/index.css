@@ -80,4 +80,35 @@ input {
 
     color: var(--color-text-primary);
   }
+
+  &:invalid {
+    border: 0.125rem solid var(--color-semantic-error);
+  }
+
+  & + small {
+    font: var(--text-sm);
+    color: #78716c;
+
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    font: var(--text-sm);
+    color: var(--color-semantic-error);
+
+    margin-top: 0.25rem;
+  }
+
+  &:valid + .error {
+    display: none;
+  }
+
+  /* &:not(:focus):valid + .error {
+    display: none;
+  } */
 }
